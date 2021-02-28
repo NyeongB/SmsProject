@@ -8,11 +8,6 @@
                    http://www.springframework.org/schema/context 
                    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-
-
-
-
-
 	<!-- ※ dispatcher-servlet.xml 의 기본 샘플 코드 -->
 	<!-- 이 코드는 기본 설정 내용을 복사하기 위해서 스프링 doc 를 참고하여 작성한다. -->
 	<!-- → 『C:\spring-framework\docs\spring-framework-reference\pdf』 경로로 이동 -->
@@ -33,6 +28,7 @@
 	<!-- Controller 객체가 포함된 패키지 경로를 지정한다. -->
 	<context:component-scan
 		base-package="com.test.mybatis" />
+
 
 
 	<!-- ③ mybatis 등록 과정 중(설정 중) -->

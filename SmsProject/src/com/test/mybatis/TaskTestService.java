@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service 
 public class TaskTestService {
  
-    @Scheduled(cron = "0/4 * * * * ?")
+    @Scheduled(fixedRate=1000)
     public void TestScheduler(){
         System.out.println("스케줄링 테스트");
     }
